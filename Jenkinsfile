@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage("Continuous Integration / Intégration Continue") {
             steps {
-                git branch: "main", url: "https://github.com/yanisbra/MyBank_frontend"
+                git branch: "main", url: "https://github.com/YanisBra/MyBank_frontend"
                 sh "npm install"
             }
         }
