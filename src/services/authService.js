@@ -12,6 +12,21 @@ export const login = async (email, password) => {
   return token;
 };
 
+export const register = async (email, password, username) => {
+  const response = await api.post(
+    "/users",
+    { email, password, username },
+    {
+      headers: {
+        "Content-Type": "application/ld+json",
+      },
+    }
+  );
+
+  return response;
+};
+
+
 export const logout = () => {
   localStorage.removeItem("token");
 };

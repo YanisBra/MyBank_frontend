@@ -7,6 +7,6 @@ npm run start
 
 Build the image and run as container
 ```
-docker build -t MyBank_frontend .
-docker run --name MyBank_frontend_container -p 5173:5173 MyBank_frontend
+docker build -t myank_frontend .
+docker run --name mybank_frontend_container -p 5173:5173 mybank_frontend
 ```
