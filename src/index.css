@@ -1,0 +1,68 @@
+html, body {
+    font-family: 'Montserrat', sans-serif !important;
+  }
+  
+  :root {
+  --primary-color: #FCA311 ;
+  --secondary-color: #14213D ;
+  --accent-color: #59E5A9 ;
+  --danger-color: #EC0B43 ;
+  --dark-color: #000000 ;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.table-hover tbody tr:hover {
+  background-color: rgba(89, 229, 169, 0.1) !important;
+}
+
+.table thead {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+h1{
+  color: var(--accent-color) !important;
+}
+
+h2, h3 {
+  color: var(--secondary-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border: none !important;
+}
+
+.btn-outline-primary {
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.btn-outline-danger {
+  color: var(--danger-color) !important;
+  border-color: var(--danger-color) !important;
+}
+
+.btn-outline-danger:hover {
+  background-color: var(--danger-color) !important;
+  color: white !important;
+}
+
+.alert-info {
+  background-color: rgba(89, 229, 169, 0.1) !important;
+  color: var(--secondary-color) !important;
+}
+
+.modal-content {
+  border-radius: 16px !important;
+}
