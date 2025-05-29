@@ -1,8 +1,12 @@
 Install dependencies and build the app for production
 ```
 npm install
-npm run build
-npm run start
+npm run dev
+```
+
+Run tests 
+```
+npm run test
 ```
 
 Build the image and run as container
